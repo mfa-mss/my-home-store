@@ -1,8 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🏠 My Home Store - Ecommerce Website
 
-## Getting Started
+A beautiful, modern ecommerce website built with **Next.js** and **Tailwind CSS** for home decor and furniture.
 
-First, run the development server:
+## ✨ Features
+
+- 🛍️ **Product Catalog** - Browse furniture, lighting, decor, and textiles
+- 🛒 **Shopping Cart** - Add/remove items with quantity management
+- 📱 **Responsive Design** - Works perfectly on desktop, tablet, and mobile
+- 🎨 **Modern UI** - Clean design with Tailwind CSS
+- ⚡ **Fast Performance** - Built with Next.js for optimal speed
+- 🔍 **Product Filtering** - Filter by category and sort by price/rating
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 15, React 19
+- **Styling**: Tailwind CSS 3.4
+- **State Management**: React Context API
+- **Images**: Next.js Image Optimization
+
+## 🚀 Getting Started
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/my-home-store.git
+   cd my-home-store
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Visit [http://localhost:3000](http://localhost:3000) to see the website
+
+## 📁 Project Structure
+
+```
+my-home-store/
+├── components/          # Reusable React components
+├── context/            # React Context for state management
+├── data/               # Sample data and mock APIs
+├── pages/              # Next.js pages (file-based routing)
+├── public/             # Static assets
+└── styles/             # Global styles
+```
+
+## 🚀 Deployment
+
+Deploy to Vercel or Netlify by connecting your GitHub repository.
+
+---
+
+**Happy Shopping! 🛍️**
 
 ```bash
 npm run dev
